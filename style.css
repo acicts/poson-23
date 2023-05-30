@@ -25,6 +25,7 @@ nav {
   width: 100%;
   padding: 1rem 2rem;
   color: white;
+  background-color: #0D0D24;
 }
 nav div {
   display: flex;
@@ -33,6 +34,16 @@ nav div {
 }
 nav .acicts-logo img {
   height: 100%;
+}
+nav .socials {
+  margin-left: auto;
+  font-size: 1.6rem;
+}
+nav .socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
 }
 
 .landing {
@@ -87,4 +98,34 @@ nav .acicts-logo img {
   text-decoration: underline;
   color: #f9f8ef;
   transition: 0.4s;
+}
+
+.guidelines {
+  background-color: #05001a;
+  color: #f9f8ef;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.guidelines .guidelines-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.guidelines .guidelines-section ul {
+  list-style-position: inside;
+}
+.guidelines .guidelines-section ul li {
+  margin: 0.2rem 0;
+}
+
+footer {
+  background-color: #0D0D24;
+  color: #f9f8ef;
+  padding: 2rem;
+  text-align: center;
+}
+footer a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
