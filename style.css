@@ -134,6 +134,9 @@ footer a:hover {
   body {
     overflow-x: hidden;
   }
+  nav {
+    padding: 2rem 2rem;
+  }
   .landing {
     padding: 17vh 2rem 15vh 2rem;
   }
@@ -142,6 +145,10 @@ footer a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+    padding-top: 5rem;
+  }
+  .landing .rules {
+    padding-top: 6rem;
   }
   .guidelines {
     gap: 3rem;
