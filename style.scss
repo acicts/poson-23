@@ -159,6 +159,16 @@ footer {
         overflow-x: hidden;
     }
 
+    nav {
+        padding: 2rem 2rem;
+
+        .acicts-logo {
+            img {
+              display: none;
+            }
+        }
+    }
+
     .landing {
             padding: 17vh 2rem 15vh 2rem;
 
@@ -167,11 +177,17 @@ footer {
             flex-direction: column;
             justify-content: center;
             gap: 2rem;
+            padding-top: 5rem;
+        }
+
+        .rules {
+            padding-top: 6rem;
         }
     }
 
     .guidelines {
         gap: 3rem;
+        padding: 2rem;
     
         .guidelines-section {
             h2 {
