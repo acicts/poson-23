@@ -152,3 +152,33 @@ footer {
         }
     }
 }
+
+@media (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .landing {
+            padding: 17vh 2rem 15vh 2rem;
+
+        .cta {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2rem;
+        }
+    }
+
+    .guidelines {
+        gap: 3rem;
+    
+        .guidelines-section {
+            h2 {
+                font-size: 1.4rem;
+                font-weight: bold;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

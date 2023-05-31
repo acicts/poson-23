@@ -128,4 +128,27 @@ footer {
 }
 footer a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .landing {
+    padding: 17vh 2rem 15vh 2rem;
+  }
+  .landing .cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .guidelines {
+    gap: 3rem;
+  }
+  .guidelines .guidelines-section h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
