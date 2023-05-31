@@ -138,7 +138,7 @@ footer a:hover {
     padding: 2rem 2rem;
   }
   nav .acicts-logo img {
-    height: 150%;
+    display: none;
   }
   .landing {
     padding: 17vh 2rem 15vh 2rem;
