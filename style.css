@@ -100,6 +100,128 @@ nav .socials a {
   transition: 0.4s;
 }
 
+.winners {
+  background-color: #05001a;
+  color: #f9f8ef;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+.winners .winner-cats {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.winners .winner-cats h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #EEC945;
+  text-shadow: 0 0 15px rgba(238, 201, 69, 0.5019607843), 0 0 10px rgba(238, 201, 69, 0.5019607843);
+}
+.winners .winner-cats .winner-posts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.winners .winner-cats .winner-posts .post {
+  width: 28%;
+  height: auto;
+  aspect-ratio: 1/1;
+  margin: auto;
+  box-shadow: 4px 0 32px 0 rgba(238, 201, 69, 0.2274509804);
+  border-radius: 24px;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+.winners .winner-cats .winner-posts .post::after {
+  position: absolute;
+  font-size: 1.4rem;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  top: 0;
+  transform: translateY(-50%);
+  text-shadow: 0 0 24px rgba(0, 0, 0, 0.5019607843);
+}
+.winners .winner-cats .winner-posts .post:nth-child(2) {
+  width: 32%;
+}
+.winners .winner-cats .winner-posts .post:nth-child(2)::after {
+  content: "WINNER";
+  font-size: 2.4rem;
+}
+.winners .winner-cats .winner-posts .post:nth-child(1)::after {
+  content: "1ST RUNNERS UP";
+}
+.winners .winner-cats .winner-posts .post:nth-child(3)::after {
+  content: "2ND RUNNERS UP";
+}
+.winners .winner-cats .winner-posts .post img {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+}
+.winners .winner-cats .winner-posts .post:hover .post-credits {
+  opacity: 1;
+}
+.winners .winner-cats .post-credits {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+.winners .winner-cats .post-credits .credit-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.winners .winner-cats .post-credits .credit-class {
+  font-size: 1.2rem;
+}
+.winners .winner-cats .winner-wishing {
+  display: flex;
+  justify-content: center;
+  border-radius: 24px;
+}
+.winners .winner-cats .winner-wishing .post {
+  width: 40%;
+  box-shadow: 4px 0 32px 0 rgba(238, 201, 69, 0.2274509804);
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+.winners .winner-cats .winner-wishing .post::after {
+  content: "WINNER";
+  position: absolute;
+  font-size: 2.4rem;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  top: 0;
+  transform: translateY(-50%);
+  text-shadow: 0 0 24px rgba(0, 0, 0, 0.5019607843);
+}
+.winners .winner-cats .winner-wishing .post img {
+  width: 100%;
+  border-radius: 24px;
+}
+.winners .winner-cats .winner-wishing .post:hover .post-credits {
+  opacity: 1;
+}
+
 .guidelines {
   background-color: #05001a;
   color: #f9f8ef;
