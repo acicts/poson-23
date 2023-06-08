@@ -26,6 +26,7 @@ nav {
     padding: 1rem 2rem;
     color: white;
     background-color: #0D0D24;
+    z-index: 10;
 
     div {
         display: flex;
@@ -330,6 +331,52 @@ footer {
 
         .rules {
             padding-top: 6rem;
+        }
+    }
+
+    .winners {
+        h2 {
+            text-align: center;
+        }
+        gap: 4rem;
+
+        .winner-cats {
+            font-size: .5rem;
+            .winner-posts {
+                flex-direction: column;
+                gap: 4rem;
+
+                .post {
+                    width: 100% !important;
+
+                    &::after {
+                        font-size: 1rem;
+                    }
+
+                    &:nth-child(1) {
+                        order: 2;
+                    }
+                    &:nth-child(2) {
+                        order: 1;
+                        &::after {
+                            font-size: 1.4rem;
+                        }
+                    }
+                    &:nth-child(3) {
+                        order: 3;
+                    }
+                }
+            }
+
+            .winner-wishing {
+                .post {
+                    width: 100%;
+
+                    &::after {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
         }
     }
 
